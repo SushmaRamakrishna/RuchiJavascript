@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h2>Top 4 books</h2>
+    <div>
+      <ul>
+        <li>1) Divergent</li>
+        <img src="divergent.jpg" alt="" style="width: 100px; height= 200px;" />
+        <button
+          value="divergent"
+          style="cursor: pointer;"
+          onclick="RuFunction(this.value)"
+        >
+          Divergent
+        </button>
+      </ul>
+      <ul></ul>
+      <ul>
+        <li>2) Stars Above</li>
+        <img src="starsabove.jpg" alt="" style="width: 100px; height= 200px;" />
+        <button value="starsabove" onclick="RuFunction(this.value)">
+          Stars Above
+        </button>
+      </ul>
+      <ul>
+        <li>3) Cinder</li>
+        <img src="cinder.jpg" alt="" style="width: 100px; height= 200px;" />
+        <button value="cinder" onclick="RuFunction(this.value)">Cinder</button>
+      </ul>
+      <ul>
+        <li>4) The Great Gatsby</li>
+        <img src="great.jpg" alt="" style="width: 100px;height= 200px;" />
+        <button value="gatsby" onclick="RuFunction(this.value)">
+          The Great Gatsby
+        </button>
+      </ul>
+    </div>
+    <script>
+      function RuFunction(RuValue) {
+        console.log(RuValue);
+
+        switch (RuValue) {
+          case "divergent":
+            window.open("https://veronicarothbooks.com/books/divergent/");
+            break;
+
+          case "cinder":
+            window.open("https://www.marissameyer.com/book/book-one/");
+            break;
+
+          case "starsabove":
+            window.open;
+
+          case "gatsby":
+            window.open(
+              "https://www.amazon.com/Great-Gatsby-F-Scott-Fitzgerald/dp/0743273567"
+            );
+        }
+      }
+    </script>
+  </body>
+</html>
+<link rel="stylesheet" href="file.css" />
